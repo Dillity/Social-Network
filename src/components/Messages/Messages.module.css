@@ -1,0 +1,34 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 1fr 8fr;
+
+}
+
+.dialogsItems {
+    padding: 15px;
+}
+.dialogsItems .active {
+
+}
+
+.messages {
+    padding: 15px;
+    font-weight: 500;
+}
+
+.message {
+
+}
+
+.vl {
+    border-left: 2px solid darkgrey;
+    height: 90%;
+    left: 50%;
+    top: 0;
+    margin: 15px;
+}
+
+.btn {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}

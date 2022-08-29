@@ -1,0 +1,16 @@
+
+.item {
+    padding: 2px;
+    margin: 2px;
+}
+
+.item a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1F4690;
+    text-decoration: none;
+}
+.item a:hover {
+    text-decoration: underline;
+    color: #F5C7A9;
+}

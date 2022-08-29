@@ -1,0 +1,11 @@
+.photo {
+    width: 60px
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+span {
+    padding: 3px;
+}

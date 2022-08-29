@@ -1,0 +1,14 @@
+.content {
+    padding-bottom: 60px;
+    line-height: 0.4;
+}
+
+.content img {
+    width: 70px;
+}
+
+.item {
+    color: #1F4690;
+    font-weight: 700;
+    line-height: 0.7;
+}

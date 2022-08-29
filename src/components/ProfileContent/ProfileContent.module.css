@@ -1,0 +1,9 @@
+
+.content {
+    grid-area: c;
+    background-color: #FCF8E8;
+}
+.mainImage img {
+    width: 90%;
+    height: 600px;
+}
