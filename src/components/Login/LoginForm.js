@@ -21,6 +21,12 @@ const LoginForm = (props) => {
                     {props.error}
                 </div>
             }
+            {props.captcha &&
+                <div>
+                    <img src={props.captcha}/>
+                    <Field component={Input} name={'captcha'} placeholder={'Please enter the captcha'} validate={[required]}/>
+                </div>
+            }
             <div>
                 <button>Login</button>
             </div>

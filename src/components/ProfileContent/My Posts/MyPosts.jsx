@@ -9,7 +9,6 @@ const maxLength10 = maxLengthCreator(10);
 
 const MyPosts = (props) => {
 
-    console.log('RENDER');
     let addNewPost = (values) => {
         props.addPost(values.newPostElement);
     }

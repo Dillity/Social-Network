@@ -8,6 +8,7 @@ import React, {Suspense} from "react";
 import {connect, Provider} from "react-redux";
 import {initializeApp} from "./redux/appReducer";
 import Preloader from "./components/Common/Preloader/Preloader";
+
 const MessagesContainer = React.lazy(() => import ("./components/Messages/MessagesContainer"));
 const News = React.lazy(() => import ("./components/News/News"));
 const Music = React.lazy(() => import ("./components/Music/Music"));
@@ -19,7 +20,6 @@ class AppC extends React.Component {
     componentDidMount() {
         this.props.initializeApp();
     }
-
 
     render() {
         if (!this.props.initialized) {
@@ -40,6 +40,7 @@ class AppC extends React.Component {
                         <Route path='/music/' render={() => <Music/>}/>
                         <Route path='/settings/' render={() => <Settings/>}/>
                         <Route path='/login/' render={() => <Login/>}/>
+                        {/*<Route path='*' exact render={() => <div>404 NOT FOUND</div>}/>*/}
                         {/*</Routes>*/}
                     </Suspense>
                 </div>

@@ -7,3 +7,8 @@
 .content img {
     width: 150px;
 }
+
+.contacts {
+    padding-left: 15px;
+    line-height: 1.1;
+}

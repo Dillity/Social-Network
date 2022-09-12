@@ -7,7 +7,7 @@ const ProfileContent = (props) => {
     return (
         <div className={style.content}>
             <div className={style.mainImage}><img src='https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg' /></div>
-            <Avatar profile={props.profile} status={props.status} updateStatus={props.updateStatus}/>
+            <Avatar activeEditMode={props.activeEditMode} profile={props.profile} status={props.status} updateStatus={props.updateStatus} isOwner={props.isOwner} mainPhotoChange={props.mainPhotoChange} id={props.id} saveProfile={props.saveProfile}/>
             <MyPostsContainer />
         </div>
     );
